@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/dialNumber"
+        android:layout_width="150sp"
+        android:layout_height="75sp"
+        android:text="Dial Number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.764" />
+
+    <Button
+        android:id="@+id/toast"
+        android:layout_width="150dp"
+        android:layout_height="75sp"
+        android:text="toast"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.424" />
+
+    <Button
+        android:id="@+id/showLocation"
+        android:layout_width="150dp"
+        android:layout_height="75sp"
+        android:text="Show Location"/>
+
+    <Button
+        android:id="@+id/openWebPage"
+        android:layout_width="150dp"
+        android:layout_height="75sp"
+        android:text="Open Web Page"/>
+
+    <Button
+        android:id="@+id/viewIntent"
+        android:layout_width="150dp"
+        android:layout_height="75sp"
+        android:text="View Intent"/>
+
+    <Button
+        android:id="@+id/letsGetPro"
+        android:layout_width="150dp"
+        android:layout_height="75sp"
+        android:text="Lets Get Pro..."/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="282dp"
+        android:layout_height="131dp"
+        android:text="@string/hello_world_welcome_to_the_world_of_andriod"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

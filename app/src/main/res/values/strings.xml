@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyFirstApplication</string>
+    <string name="hello_world_welcome_to_the_world_of_andriod">Hello world , welcome to the world of andriod</string>
+    <string name="touchme">touch me</string>
+
+</resources>
