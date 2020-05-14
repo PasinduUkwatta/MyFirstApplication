@@ -8,51 +8,75 @@
 
     <Button
         android:id="@+id/dialNumber"
-        android:layout_width="150sp"
-        android:layout_height="75sp"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
         android:text="Dial Number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.17"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.764" />
+        app:layout_constraintVertical_bias="0.91" />
 
     <Button
         android:id="@+id/toast"
-        android:layout_width="150dp"
-        android:layout_height="75sp"
+        android:layout_width="100dp"
+        android:layout_height="100sp"
         android:text="toast"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.752"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.424" />
+        app:layout_constraintVertical_bias="0.64" />
 
     <Button
         android:id="@+id/showLocation"
-        android:layout_width="150dp"
-        android:layout_height="75sp"
-        android:text="Show Location"/>
+        android:layout_width="100dp"
+        android:layout_height="100sp"
+        android:text="Show Location"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.752"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.397" />
 
     <Button
         android:id="@+id/openWebPage"
-        android:layout_width="150dp"
-        android:layout_height="75sp"
-        android:text="Open Web Page"/>
+        android:layout_width="100dp"
+        android:layout_height="100sp"
+        android:text="Open Web Page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.752"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912" />
 
     <Button
         android:id="@+id/viewIntent"
-        android:layout_width="150dp"
-        android:layout_height="75sp"
-        android:text="View Intent"/>
+        android:layout_width="100dp"
+        android:layout_height="100sp"
+        android:text="View Intent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.667" />
 
     <Button
         android:id="@+id/letsGetPro"
-        android:layout_width="150dp"
-        android:layout_height="75sp"
-        android:text="Lets Get Pro..."/>
+        android:layout_width="100dp"
+        android:layout_height="100sp"
+        android:text="Lets Get Pro..."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.397" />
 
     <TextView
         android:id="@+id/textView"
@@ -63,12 +87,10 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.206" />
-
-
+        app:layout_constraintVertical_bias="0.026" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

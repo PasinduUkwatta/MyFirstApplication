@@ -100,14 +100,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.dialNumber:
                 //Dial happen to be an andriod component
 
-                Intent intent1 = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:1234567890"));
+                Intent intent1 = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:0711134022"));
                 startActivity(intent1);
 
 
                 break;
 
             case R.id.showLocation:
-
+                //from the geo tag we will only call h
+                Intent intent2 = new Intent(Intent.ACTION_VIEW,Uri.parse("geo:6.8509059,79.8599088,17?z=9"));
+                startActivity(intent2);
 
 
                 break;
