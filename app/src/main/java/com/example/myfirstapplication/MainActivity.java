@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         dialPhone.setOnClickListener(this);
         viewIntent.setOnClickListener(this);
-        openWebPage.setOnClickListener(this);
+        letsGetPro.setOnClickListener(this);
         toast.setOnClickListener(this);
         showLocation.setOnClickListener(this);
 
