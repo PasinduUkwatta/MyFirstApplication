@@ -32,12 +32,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         showLocation =findViewById(R.id.showLocation);
         letsGetPro =findViewById(R.id.letsGetPro);
         viewIntent =findViewById(R.id.viewIntent);
+        openWebPage =findViewById(R.id.openWebPage);
 
         dialPhone.setOnClickListener(this);
         viewIntent.setOnClickListener(this);
         letsGetPro.setOnClickListener(this);
         toast.setOnClickListener(this);
         showLocation.setOnClickListener(this);
+        openWebPage.setOnClickListener(this);
 
         //event listener
 //        TouchMe.setOnClickListener(new View.OnClickListener() {
@@ -116,10 +118,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.openWebPage:
 
+                Intent intent3 = new Intent(Intent.ACTION_VIEW,Uri.parse("https://www.google.com"));
+                startActivity(intent3);
 
                 break;
 
             case R.id.letsGetPro:
+                Intent intent5 = new Intent("com.example.myfirstapplication.otherActivity");
+                intent5.putExtra("KEY","Value is my data....");
+
+                startActivity(intent5);
+
+
+
 
 
                 break;
@@ -127,6 +138,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.toast:
                 Intent intent = new Intent(MainActivity.this,otherActivity.class);
                 startActivity(intent);
+
+
+                break;
+
+            case R.id.viewIntent:
+
+                //this will provide the available applications in the phone that can use
+                Intent intent4 = new Intent(Intent.ACTION_VIEW);
+                startActivity(intent4);
 
 
                 break;
